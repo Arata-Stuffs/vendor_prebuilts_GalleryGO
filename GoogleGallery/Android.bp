@@ -1,8 +1,9 @@
 android_app_import {
 	name: "GoogleGallery",
 	apk: "GoogleGallery.apk",
-	overrides: ["Gallery2", "Photos", "SimpleGallery", "Gallery3d", "Gallery3D", "GalleryNew3D"],
-	certificate: "platform",
+	owner: "gms",
+	preprocessed: true,
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
